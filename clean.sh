@@ -11,4 +11,7 @@ if [[ "$response" != "yes" ]]; then
    exit 0
 fi
 
+echo "Cleaning the build.  This may take a moment..."
 rm -rf system
+echo "Done"
+
